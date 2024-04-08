@@ -1,0 +1,370 @@
+/*----------------------------*/
+/* Maintenant on va voir la premiere section: profile */
+/*----------------------------*/
+
+.section-container {
+  display: flex;
+}
+
+/* Pofile section */
+#profile {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  gap: 5rem;
+}
+
+.section__pic-container {
+  display: flex;
+  margin: auto 0;
+  height: 300px;
+  width: 300px;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#socials-container {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/*Attaquons sur les icons */
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+/* boutons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600px;
+  transition: all 300ms ease;
+  width: 8rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.btn-color1,
+.btn-color2 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color1:hover,
+.btn-color2:hover {
+  cursor: pointer;
+}
+
+.contact-lien {
+  color: #fff;
+}
+
+.btn-color1,
+.btn-color2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color1:hover {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.btn-color2 {
+  background: none;
+}
+
+.btn-color2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+/* Section a propos */
+
+/* about */
+
+.about {
+  background-image: url(image/about-left.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.heading {
+  text-align: center;
+  text-transform: uppercase;
+  color: #444;
+  margin-bottom: 20px;
+}
+.about-div {
+  display: flex;
+  align-items: center;
+}
+
+.image-about {
+  flex: 1 1 39rem;
+}
+
+.image-nk {
+  width: 600px;
+  height: 600px;
+}
+
+.content {
+  flex: 1 1 51rem;
+  padding: 5rem;
+}
+
+.title-nk {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.para-about {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.btn-nk {
+  width: 150px;
+  background: #8a6d46;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+}
+
+.btn-nk:hover {
+  background-color: white;
+  border: 1px solid #8a6d46;
+  color: #8a6d46;
+}
+
+/* Partie Projet */
+#projects {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.details-container:hover .project-img.image1 {
+  transform: scaleX(1.1);
+}
+
+.project-img {
+  vertical-align: middle;
+  transition: all 1.5s ease;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.titre {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bouton {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  width: 150px;
+  line-height: 30px;
+}
+
+.bouton:hover {
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+/* ceci concerne la partie footer */
+footer
+{
+    background:#efefef;
+}
+
+.box-cont
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+    margin-bottom: 20px;
+    
+}
+
+.sous-titre
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:#444;
+    margin-top: 20px;
+}
+
+.share,.foot-para
+{
+    margin-top: 10px;
+}
+
+.icon
+{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: #FFF;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.lien-nk:hover
+{
+    color:rgba(50, 185, 209, 0.75);
+    text-decoration: underline;
+}
+
+.foot-para span
+{
+    color: #444;
+    font-weight: 600;
+}
+
+.copyright-foot
+{
+    padding-block: 10px;
+    border-top: 1px solid #fff;
+}
+
+/*=== Lien des pages ===*/
+.lien
+{
+    padding-block: 10px;
+}
+
+.list-page-link
+{
+    column-gap: 12px; 
+    display: flex;
+}
+
+.lien
+{
+    color:#444;
+    font-size: 12px;
+    cursor: pointer;
+    background: white;
+}
+
+.linkd:hover
+{
+    color: red;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+#clientReserve{
+    background: white;
+}
+/* .listes_reservation{
+
+} */
+#clientReserve th{
+    width: 200px;
+    color:black;
+    border-bottom: 2px solid #444;
+    padding:20px
+}
+
+#clientReserve td{
+    width: 100px;
+    color:black;
+    border-bottom: 2px solid #444;
+    padding:20px
+}

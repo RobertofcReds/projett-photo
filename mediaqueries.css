@@ -1,0 +1,28 @@
+/* Reglage pour le cas d'un smartphone */
+@media screen and (max-width: 680px) /*Pour adapter le code au smartphone */ {
+  nav .onglet {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .main .card {
+    margin: 10px;
+  }
+  .main .container .card .right img {
+    height: 200px;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .main .container .card {
+    display: block;
+  }
+
+  .contenir {
+    width: 0;
+    margin: auto;
+    padding: 10px;
+  }
+  footer {
+    padding: 30px;
+  }
+}
