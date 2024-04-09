@@ -16,7 +16,7 @@
 <body>
     <!--Ceci est pour la barre de navigation-->
     <nav class="nav">
-        <a href="index.html" class="logo">
+        <a href="index.php" class="logo">
             <h1 class="logoSite">Robert</h1>
         </a>
 
@@ -71,7 +71,7 @@
                     </a>
                 </div>
             </div>
-            <!--Deuxieme div du footer (Contact)-->
+            <!-- ========================Deuxieme div du footer (Contact)=========== -->
             <div class="box">
                 <h2 class="sous-titre" id="contact">Contact</h2>
                 <p class="foot-para"><span>Adresse :</span> Lazaret Nord 126LB</p>
