@@ -52,7 +52,7 @@ if (isset($_POST["name"])) {
     <meta charset="UTF-8" />
     <meta http-equive="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Reservation</title>
 
     <link rel="stylesheet" href="./reservation.css" />
    

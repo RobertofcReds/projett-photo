@@ -60,7 +60,7 @@
                 <div class="right">
                     <img src="image/night-1927265.jpg" alt="">
                 </div>
-            </div>
+            </div> 
 
         </div>
 

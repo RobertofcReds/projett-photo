@@ -41,7 +41,7 @@
     <!--Profile section-->
     <section id="profile">
         <div class="section__pic-container">
-            <img src="image/profile-pic.png" alt="my profile">
+            <img src="image/Photographe.jpg" alt="my profile">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, i'm </p>
