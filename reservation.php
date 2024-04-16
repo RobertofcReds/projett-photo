@@ -119,8 +119,8 @@ if (isset($_POST["name"])) {
         <h2>Réservation du jour</h2>
         <table id="clientReserve">
             <tr>
-                <th>Heure début</th>
-                <th>Heure fin</th>
+                <th>Date début</th>
+                <th>Date fin</th>
             </tr>
             <?php foreach($liste_reservation as $res): ?>
             <tr>
